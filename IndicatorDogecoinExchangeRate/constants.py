@@ -18,7 +18,7 @@ class Constants(object):
     ICON_BITCOINWISDOM = '/usr/local/share/IndicatorDogecoinExchangeRate/icons/logo_bitcoinwisdom.png'
     
     CRYPTSY_EXECUTE = 'chromium-browser http://www.cryptsy.com --start-maximized'
-    BITCOINWISDOM_EXECUTE = 'chromium-browser http://www.bitcoinwisdom.com --start-maximized'
+    BITCOINWISDOM_EXECUTE = 'chromium-browser http://www.http://bitcoinwisdom.com/markets/cryptsy/dogebtc --start-maximized'
 
     
     
