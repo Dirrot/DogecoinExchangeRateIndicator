@@ -12,6 +12,7 @@ Created on 13.02.2014
 import os
 import gtk
 import appindicator
+import webbrowser
 from decimal import Decimal
 from cryptsy import CryptsyAPI
 from constants import Constants
@@ -70,7 +71,7 @@ class IndicatorDogecoinExchangeRate():
         This method executes the given command to open the cryptsy website
         in the browser.
         ''' 
-        os.system(Constants.CRYPTSY_EXECUTE)
+        webbrowser.open(Constants.URL_CRYPTSY)
         return True
     
     def _openBrowserWithBitcoinwisdom(self, widget, optionName, indicator):
@@ -78,7 +79,7 @@ class IndicatorDogecoinExchangeRate():
         This method executes the given command to open the cryptsy website
         in the browser.
         '''
-        os.system(Constants.BITCOINWISDOM_EXECUTE)
+        webbrowser.open(Constants.URL_BITCOINWISDOM)
         return True
     
     def _getCurrentValue(self): 
