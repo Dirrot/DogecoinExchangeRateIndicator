@@ -100,7 +100,7 @@ class CryptsyAPI(object):
             query request has been succeded.
             '''
             if data['return'] == False:
-                return "0"
+                return self.last_price['return']['markets']['DOGE']['recenttrades'][0]['price']
             
             '''
             If the server couldn't fulfill the request (error 502) the latest
