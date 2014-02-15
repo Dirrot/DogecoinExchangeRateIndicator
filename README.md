@@ -22,6 +22,14 @@ ___________________________________________________
 
 _Installation_
 
+* #1 install all dependencies
+
+```shell
+sudo apt-get install appindicator
+```
+
+* #2 install the indicator
+
 ```shell
 git clone https://github.com/Dirrot/python-indicator-dogecoin-cryptsy-exchange-rate.git
 cd python-indicator-dogecoin-cryptsy-exchange-rate
