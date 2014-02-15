@@ -34,10 +34,6 @@ _Usage_
 /usr/bin/indicator-dogecoin
 ```
 
-_Info_
-
-This indicator uses the chromium-browser per default. If you don't have it allready installed, u can change it to your prefered standart browser in the constants.py file. Just replace the specicfic codee line with your browser and the necessary arguments.
-
 ___________________________________________________
 
 **Please donate to "DQ6mBVyuboTGwS8JYW11oHwXtxsjNAzkzi" [DOGECOIN]** 
