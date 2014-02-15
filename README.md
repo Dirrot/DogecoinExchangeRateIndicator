@@ -1,4 +1,4 @@
-IndicatorDogecoinExchangeRate
+Indicator Dogecoin Exchange Rate
 ===============================================
 
 This is a python indicator for the latest dogecoin/bitcoin exchange rate at cryptsy.com
@@ -31,7 +31,7 @@ sudo python setup.py install
 _Usage_
 
 ```shell
-/usr/bin/indicator-doge
+/usr/bin/indicator-dogecoin
 ```
 
 ___________________________________________________
