@@ -25,7 +25,7 @@ _Installation_
 * #1 install all dependencies
 
 ```shell
-sudo apt-get install appindicator
+sudo apt-get install python-appindicator
 ```
 
 * #2 install the indicator
