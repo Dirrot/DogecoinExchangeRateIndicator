@@ -48,3 +48,7 @@ ___________________________________________________
 
 !["Dogecoin Donation QR-Code"](http://github.com/Dirrot/python-indicator-dogecoin-cryptsy-exchange-rate/blob/master/img/donation-qr-code.png?raw=true)
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Dirrot/python-indicator-dogecoin-cryptsy-exchange-rate/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
