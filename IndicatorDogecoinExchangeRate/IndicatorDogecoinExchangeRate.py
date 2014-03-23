@@ -3,7 +3,7 @@
 Created on 13.02.2014
 
 @author: Dirk Rother
-@contact: dirrot@web.de
+@contact: dirrot.dev@gmail.com
 @license: GPL
 @version: 0.1
 
