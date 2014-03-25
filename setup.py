@@ -1,7 +1,6 @@
 #!/usr/bin/env python2
 
-#from distutils.core import setup
-from setuptools import setup
+from distutils.core import setup
 
 setup(name = 'DogecoinExchangeRateIndicator',
       version = '0.1',
@@ -12,7 +11,6 @@ setup(name = 'DogecoinExchangeRateIndicator',
       license = "GNU General Public License version 2 or later",
       url = 'https://github.com/Dirrot/python-indicator-dogecoin-cryptsy-exchange-rate',
       packages = [],
-#      install_requires = ['libappindicator'],
       data_files = [
             ('/opt/extras.ubuntu.com/DogecoinExchangeRateIndicator', [
                 'DogecoinExchangeRateIndicator/__init__.py',
