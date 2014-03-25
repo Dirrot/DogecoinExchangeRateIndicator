@@ -2,10 +2,19 @@
 
 from distutils.core import setup
 
+long_description = """
+Python indicator for displaying the latest exchange rate of dogecoin/bitcoin at cryptsy.com"
+Features
+    * displays the current exchange rate of dogecoin/bitcoin at cryptsy.com\
+    * updating the exchange rate every 3 seconds\
+    * quick shortcut to cryptsy.com\
+    * quick shortcut to bitcoinwisdom.com, especially doge/btc market
+"""
+
 setup(name = 'DogecoinExchangeRateIndicator',
       version = '0.1',
       description = 'Python indicator for displaying the latest exchange rate of dogecoin/bitcoin at cryptsy.com',
-      long_description = '',
+      long_description = long_description,
       author = 'Dirk Rother',
       author_email = 'dirrot.dev@gmail.com',
       license = "GNU General Public License version 2 or later",
