@@ -2,7 +2,7 @@
 ##
   
 echo "Starting indicator-dogecoin ..."   
-python /usr/local/lib/python2.7/dist-packages/IndicatorDogecoinExchangeRate/IndicatorDogecoinExchangeRate.py &
+python /opt/extras.ubuntu.com/DogecoinExchangeRateIndicator/DogecoinExchangeRateIndicator.py &
 echo "done ..."  
 
 exit 0

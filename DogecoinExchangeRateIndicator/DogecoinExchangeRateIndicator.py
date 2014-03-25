@@ -17,7 +17,7 @@ from decimal import Decimal
 from cryptsy import CryptsyAPI
 from constants import Constants
 
-class IndicatorDogecoinExchangeRate():
+class DogecoinExchangeRateIndicator():
     '''
     This class represents an indicator, which displays the current
     value of the dogecoin/bitcoin exchange rate using the available 
@@ -105,6 +105,6 @@ if __name__ == '__main__':
     '''
     Runs the indicator.
     '''
-    indicator = IndicatorDogecoinExchangeRate()
+    indicator = DogecoinExchangeRateIndicator()
     indicator.main()
     
