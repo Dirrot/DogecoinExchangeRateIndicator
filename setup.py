@@ -1,14 +1,7 @@
 #!/usr/bin/env python2
 
-from distutils.core import setup
-#from os.path import abspath
-#from os.path import join as path_join
-#from os import getcwd
-#from shutil import rmtree
-
-#pathname = getcwd()
-
-packages = ['DogecoinExchangeRateIndicator']
+#from distutils.core import setup
+from setuptools import setup
 
 setup(name = 'DogecoinExchangeRateIndicator',
       version = '0.1',
@@ -16,9 +9,10 @@ setup(name = 'DogecoinExchangeRateIndicator',
       long_description = '',
       author = 'Dirk Rother',
       author_email = 'dirrot.dev@gmail.com',
+      license = "GNU General Public License version 2 or later",
       url = 'https://github.com/Dirrot/python-indicator-dogecoin-cryptsy-exchange-rate',
-      classifiers = [],
       packages = [],
+#      install_requires = ['libappindicator'],
       data_files = [
             ('/opt/extras.ubuntu.com/DogecoinExchangeRateIndicator', [
                 'DogecoinExchangeRateIndicator/__init__.py',
@@ -34,10 +28,17 @@ setup(name = 'DogecoinExchangeRateIndicator',
                 'DogecoinExchangeRateIndicator/icons/logo_cryptsy.jpg', 
                 'DogecoinExchangeRateIndicator/icons/logo_bitcoinwisdom.png']),
             ('/usr/bin', [
-                'scripts/indicator-dogecoin'])])
+                'scripts/indicator-dogecoin'])],
+      keywords = "dogecoin exchange rate indicator cryptcurrency",
+      classifiers = [
+            'Development Status :: 5 - Production/Stable',
+            'Environment :: X11 Applications',
+            'Intended Audience :: End Users/Desktop',
+            'Intended Audience :: Information Technology',
+            'License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)',
+            'Natural Language :: English',
+            'Operating System :: POSIX :: Linux',
+            'Programming Language :: Python',
+            'Topic :: Office/Business :: Financial'],
+      )
 
-
-#try:
-#    rmtree(abspath(path_join(pathname, 'build/')))
-#except:
-#    pass
