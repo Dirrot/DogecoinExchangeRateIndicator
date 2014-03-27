@@ -1,0 +1,20 @@
+Source: dogecoinexchangerateindicator
+Maintainer: Dirk Rother <dirrot.dev@gmail.com>
+Section: x11
+Priority: optional
+Build-Depends: debhelper (>= 7), python-support (>= 0.8.4), python-appindicator (>= 12.10.1)
+Standards-Version: 3.8.4
+Homepage: https://github.com/Dirrot/python-indicator-dogecoin-cryptsy-exchange-rate
+
+Package: dogecoinexchangerateindicator
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-appindicator (>= 12.10.1)
+XB-Python-Version: ${python:Versions}
+Provides: ${python:Provides}
+Description: Python indicator for displaying the latest exchange rate of dogecoin/bitcoin at cryptsy.com
+ Python indicator for displaying the latest exchange rate of dogecoin/bitcoin at cryptsy.com.
+ Features
+ * displays the current exchange rate of dogecoin/bitcoin at cryptsy.com
+ * updating the exchange rate every 3 seconds
+ * quick shortcut to cryptsy.com
+ * quick shortcut to bitcoinwisdom.com, especially doge/btc market

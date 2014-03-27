@@ -1,0 +1,8 @@
+#!/bin/sh
+##
+  
+echo "Starting indicator-dogecoin ..."   
+python /opt/extras.ubuntu.com/dogecoinexchangerateindicator/DogecoinExchangeRateIndicator.py &
+echo "done ..."  
+
+exit 0

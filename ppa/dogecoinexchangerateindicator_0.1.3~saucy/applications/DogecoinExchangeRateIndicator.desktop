@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=DogecoinExchangeRateIndicator
+Comment=Python indicator for displaying the latest exchange rate of dogecoin/bitcoin at cryptsy.com
+Exec=/usr/bin/indicator-dogecoin
+Icon=/opt/extras.ubuntu.com/dogecoinexchangerateindicator/icons/the_d.jpg
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;
+StartupNotify=false
