@@ -22,6 +22,23 @@ ___________________________________________________
 
 _Installation_
 
+> Launchpad/PPA
+
+* #1 Just add the ppa to your source list
+
+``` shell
+sudo add-apt-repository ppa:dirrot/dogecoinexchangerateindicator
+sudo apt-get update
+```
+
+* #2 Install it
+
+``` shell
+sudo apt-get install dogecoinexchangerateindicator
+```
+
+> GitHub
+
 * #1 install all dependencies
 
 ```shell
