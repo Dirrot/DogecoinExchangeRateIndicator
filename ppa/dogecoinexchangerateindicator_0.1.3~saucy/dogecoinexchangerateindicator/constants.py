@@ -15,7 +15,7 @@ class Constants(object):
 
     ICON_PATH = '/opt/extras.ubuntu.com/dogecoinexchangerateindicator/icons/the_d.jpg'
     ICON_CRYPTSY = '/opt/extras.ubuntu.com/dogecoinexchangerateindicator/icons/logo_cryptsy.jpg'
-    ICON_BITCOINWISDOM = '/opt/extras.ubuntu.com/dogecoinexchangeratendicator/icons/logo_bitcoinwisdom.png'
+    ICON_BITCOINWISDOM = '/opt/extras.ubuntu.com/dogecoinexchangerateindicator/icons/logo_bitcoinwisdom.png'
     
     URL_CRYPTSY = 'http://www.cryptsy.com'
     URL_BITCOINWISDOM = 'http://www.bitcoinwisdom.com/markets/cryptsy/dogebtc'
