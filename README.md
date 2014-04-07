@@ -48,11 +48,8 @@ _Usage_
 
 ___________________________________________________
 
-**Please donate to "DQ6mBVyuboTGwS8JYW11oHwXtxsjNAzkzi" [DOGECOIN]** 
-
-!["Dogecoin Donation QR-Code"](http://github.com/Dirrot/python-indicator-dogecoin-cryptsy-exchange-rate/blob/master/img/donation-qr-code.png?raw=true)
+Donation: DQ6mBVyuboTGwS8JYW11oHwXtxsjNAzkzi [DOGECOIN] 
 
 
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Dirrot/python-indicator-dogecoin-cryptsy-exchange-rate/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
