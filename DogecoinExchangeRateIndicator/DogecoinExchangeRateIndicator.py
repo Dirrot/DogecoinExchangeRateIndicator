@@ -68,7 +68,6 @@ class DogecoinExchangeRateIndicator():
         
         ''' exit '''
         menu_exit = gtk.MenuItem("exit")
-        menu_exit.set_always_show_image(True)
         menu_exit.connect("activate", gtk.main_quit)
         self.menu.append(menu_exit)
     
