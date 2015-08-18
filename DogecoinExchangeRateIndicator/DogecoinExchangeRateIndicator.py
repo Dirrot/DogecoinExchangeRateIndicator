@@ -65,11 +65,6 @@ class DogecoinExchangeRateIndicator():
         menu_bitcoinwisdom.connect("activate", self._openBrowserWithBitcoinwisdom, "Start", self.ind)
         menu_bitcoinwisdom.show()
         self.menu.append(menu_bitcoinwisdom)
-        
-        ''' exit '''
-        menu_exit = gtk.MenuItem("exit")
-        menu_exit.connect("activate", gtk.main_quit)
-        self.menu.append(menu_exit)
     
     def _openBrowserWithCryptsy(self, widget, optionName, indicator):
         '''
